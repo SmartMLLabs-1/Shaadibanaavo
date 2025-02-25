@@ -2,6 +2,8 @@ import { FaInstagram, FaFacebook, FaYoutube} from "react-icons/fa";
 import { Logo } from "./Logo";
 import { Link } from "react-router-dom";
 
+// This is reavnth branch
+
 export const Footer = () => {
   const linkClasses = "hover:underline transition-all duration-300 ease-in-out";
   const iconClasses = "text-xl hover:text-blue-500 transition-colors duration-300";
