@@ -76,4 +76,4 @@ Please read [CONTRIBUTING.md](link-to-contributing) for details on our code of c
 
 ## License
 
-This project is licensed under the [LICENSE NAME] - see the [LICENSE.md](link-to-license) file for details.
+This project is licensed under the All Rights Reserved license. Unauthorized use, copying, modification, or distribution of this software is strictly prohibited without express written permission from SmartML Labs.
