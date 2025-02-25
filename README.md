@@ -14,7 +14,6 @@ Wedding-Master-2 is a web-based application designed to streamline wedding plann
 
 ---
 
-## Project File Structure
 ```
 Wedding-Master-2/
 │── Backend/             # Backend-related code
