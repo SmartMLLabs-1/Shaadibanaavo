@@ -1,5 +1,4 @@
 import { NewspaperSection } from '@/components/NewsPaperSection';
-import { Stories } from '@/components/stories';
 
 export const Featured = () => {
   return (
