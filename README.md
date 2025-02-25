@@ -1,4 +1,20 @@
-### **Project File Structure**
+### **README.md**
+```markdown
+# Wedding-Master-2
+
+## Overview
+Wedding-Master-2 is a web-based application designed to streamline wedding planning and management. It consists of a frontend and backend, using modern web technologies to ensure a smooth user experience.
+
+## Features
+- **Frontend:** Built with HTML, TypeScript, Tailwind CSS, and Vite.
+- **Backend:** Handles data processing and business logic.
+- **Modular Structure:** Organized components for scalability.
+- **Styling:** Tailwind CSS for responsive design.
+- **Configuration:** TypeScript and ESLint for maintainability.
+
+---
+
+## Project File Structure
 ```
 Wedding-Master-2/
 │── Backend/             # Backend-related code
@@ -25,51 +41,79 @@ Wedding-Master-2/
 
 ---
 
-### **README.md**
-```markdown
-# Wedding-Master-2
+## Installation & Setup
 
-## Project Overview
-Wedding-Master-2 is a web application designed to manage wedding-related tasks efficiently. It consists of a frontend built with modern web technologies and a backend to handle data processing.
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-## Features
-- **Frontend:** Built with HTML, TypeScript, Tailwind CSS, and Vite.
-- **Backend:** API to handle business logic.
-- **Linting & Formatting:** ESLint and Prettier configurations.
-- **Documentation:** JSDoc is used for documentation.
-
-## File Structure
-```
-[Refer to the above directory structure]
-```
-
-## Installation
-
-1. Clone the repository:
+### Setup Instructions
+1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/Wedding-Master-2.git
-   ```
-2. Navigate to the project folder:
-   ```sh
+   git clone https://github.com/your-username/Wedding-Master-2.git
    cd Wedding-Master-2
    ```
-3. Install dependencies:
+
+2. **Install dependencies:**
    ```sh
    npm install
    ```
-4. Start the development server:
+   or if using Yarn:
    ```sh
-   npm run dev
+   yarn install
    ```
 
-## Configuration
-- **Linting:** ESLint is configured in `eslint.config.js`.
-- **Styling:** Tailwind CSS is configured in `tailwind.config.js`.
-- **TypeScript:** Configurations are found in `tsconfig.json`.
+3. **Run the project:**
+   - For the frontend:
+     ```sh
+     npm run dev
+     ```
+   - For the backend (if applicable):
+     ```sh
+     npm run start
+     ```
 
-## Contributing
-Feel free to fork the project and submit pull requests!
+---
+
+## Configuration
+
+### Environment Variables
+Create a `.env` file in the root directory to store environment variables. Example:
+```env
+API_KEY=your_api_key
+DB_URL=your_database_url
+```
+
+### Linting & Formatting
+- Run ESLint:
+  ```sh
+  npm run lint
+  ```
+- Format code using Prettier:
+  ```sh
+  npm run format
+  ```
+
+---
+
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit changes with meaningful messages.
+4. Push to your branch and submit a Pull Request.
+
+---
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+For questions or feedback, feel free to reach out:
+- **Email:** your.email@example.com
+- **GitHub:** [your-username](https://github.com/your-username)
 ```
+
+This README is structured to be beginner-friendly while still providing all necessary details. Let me know if you’d like any modifications! 🚀
